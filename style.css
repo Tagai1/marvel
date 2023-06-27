@@ -2,10 +2,7 @@ body {
     font-family: sans-serif;
     background-color: rgb(255, 255, 255);
 }
-header a {
-    display: flex;
-    justify-content: flex-end;
-}
+
 header {
 background-color: rgb(116, 6, 6);
 color: white;
@@ -26,7 +23,7 @@ header img{
 
 header a{
     color: white;
-    margin-left: 500px;
+    margin-left: 1200px;
     display:flex;
     align-items: center;
 }
@@ -70,4 +67,8 @@ nav a {
 .a img:hover{
     transform: translateX(950px);
     transition: 2s linear;
+}
+footer img {
+    width: 200px;
+    height: 150px;
 }
