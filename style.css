@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+background-color: rgb(116, 6, 6);
+color: white;
+padding: 10px;
+display: flex;
+align-items: center;
+}
+
+footer {
+    background-color: rgb(116, 6, 6);
+    padding: 10px;
+    color: white;
+}
+
+header img{
+    width: 100px;
+}
+
+header a{
+    color: white;
+    margin-left: 500px;
+    display:flex;
+    align-items: center;
+}
+
+header b {
+    margin-left: 500px;
+}
+h1 {
+ color:rgb(0, 0, 0);
+text-align: center
+}
+
+h2{
+    text-align: center
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid  rgb(87, 2, 2);
+    margin: 10px;
+    
+}
+
+nav a {
+    color: rgb(87, 2, 2);
+}
+
+.avengers1, .sezon, .kak, .video, .bot {
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
+.a {
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+.a img:hover{
+    transform: translateX(950px);
+    transition: 2s linear;
+}
